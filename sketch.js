@@ -3,7 +3,7 @@ function setup() {
   createCanvas(canvas_size, canvas_size);
   background(220);
   
-  var col_row_length = 10;
+  var col_row_length = 50;
   var grid = new Array(col_row_length);
   
   for(let i = 0; i < grid.length; i++) {

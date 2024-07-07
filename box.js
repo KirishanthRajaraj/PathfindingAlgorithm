@@ -9,6 +9,8 @@ function Node(i, j, canvas_size, col_row_length) {
   this.f = Number.MAX_VALUE;
   this.g = Number.MAX_VALUE;
   
+  //this.prev = unefined;
+  
   this.box_color = color(255, 255, 255);
   
   this.init = function (){
